@@ -2,5 +2,6 @@
 
 export("%>%")
 export(cube1)
+export(quickplot1)
 export(square1)
 importFrom(magrittr,"%>%")
