@@ -1,0 +1,33 @@
+---
+title: "boze"
+author: "Alastair Roberts"
+date: "25/11/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+1. install and load 'devtools'
+2. use the 'create_package(path/project name)'
+3. use the 'use_r("name of function")' as needed
+4. 'load_all()' to use your functions
+5. Update description
+6. pick licence via 'use_*()'
+7. use roxygen2 to geenrate your comments
+  *export tag the ones you want public
+  *use 'document()' to render
+8. install and restart to test your package locally
+9. use 'use_testthat()' once to create the folders/files needed
+10. create the files to test scripts needed via 'use_test("name")'
+12. 'use_package("name")' to use package
+13. 'use_readme_rmd()' to generate readme r markdown file
+14. use 'build_readme()' to get r markdown file
+15. use 'use_vignettes("name")' for long-form documentation
+16. 'build_vignettes' to build
+17. use 'use_pkgdown()' for website
+18. use 'build_site' to render the site
+
+This is some random shit I'm adding in nano for a commit from the command line :)
+
